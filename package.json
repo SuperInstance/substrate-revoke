@@ -1,0 +1,20 @@
+{
+  "name": "@superinstance/substrate-revoke",
+  "version": "0.1.0",
+  "description": "REVOKE opcode (R10): mark an observation as superseded but not deleted.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "keywords": [
+    "revoke",
+    "observation",
+    "substrate",
+    "jev-quilt",
+    "doctrine",
+    "scar"
+  ],
+  "author": "SuperInstance",
+  "license": "MIT",
+  "dependencies": {
+    "@superinstance/observation-primitive": "file:../observation-primitive"
+  }
+}
